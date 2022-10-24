@@ -1,6 +1,9 @@
 # dump-map
 Factorio Mod
 
-Output the current full map in ASCII to the file ASCII-map.txt
+The command "/dmpmap" will output the current full map in ASCII to the file ASCII-map.txt.
 
-Command is "/dmpmap"
+Known bugs and uncertainties
+* Assumes only 1 player
+* Is painfully slow
+* Don't know at what size it will break
