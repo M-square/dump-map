@@ -1,0 +1,71 @@
+---------------------------------------------------------------------------------------------------
+Version: 0.1.7
+Date: 2022.10.23
+
+		- "release" version, alpha (github and modportal)
+
+---------------------------------------------------------------------------------------------------
+Version: 0.1.6
+Date: 2022.10.23
+
+		- rationalize coordinate handling
+		- show ores - 'I'ron, 'C'opper, 'K'oal, 'S'tone, 'U'ranium
+
+---------------------------------------------------------------------------------------------------
+Version: 0.1.5
+Date: 2022.10.22
+
+	  - show Radarposts  as a '*' (empty ground is '.')
+		- restructure of controlflow (now wont look at uncharted tiles)
+		- shows "major" water areas as 'W'
+	
+---------------------------------------------------------------------------------------------------
+Version: 0.1.4
+Date: 2022.10.17
+
+	 - simple X for coarse outline of visible map in ASCII.
+	
+---------------------------------------------------------------------------------------------------
+Version: 0.1.3
+Date: 2022.10.16
+
+	 - change from on_event trap to a real command extension for "/dmpmap"
+   - only counts charted chunks now
+	
+---------------------------------------------------------------------------------------------------
+Version: 0.1.2
+Date: 2022.10.13
+
+   Major Feature:
+   - Can count chunks, and give player position
+	
+---------------------------------------------------------------------------------------------------
+Version: 0.1.1
+Date: 2022.10.13
+
+   Major Feature:
+   - Triggered on entering a command (gives ignorable error if not "known" command)
+	
+---------------------------------------------------------------------------------------------------
+Version: 0.1.0
+Date: 2022.10.13
+
+   Major Feature:
+   - Dummy - just reports ticks to logfile(s)
+	
+---------------------------------------------------------------------------------------------------
+Version: 0.0.1
+Date: 2022.10.13
+	
+Roadmap:
+() Get chunkcount to output
+     https://lua-api.factorio.com/latest/LuaSurface.html#LuaSurface.get_chunks
+     Player and cars coords
+		 https://lua-api.factorio.com/latest/LuaSurface.html#LuaSurface.find_entities_filtered
+() Create a chunkmap (like a star thus defing the coarse outline)
+     With a X for player
+() Create a tilemap (Large! one dot per tile)
+     With some item info: Radarposts
+     With some surface info: water, oil, ores
+
+More of a LUA challenge: Creating a graphic file.
